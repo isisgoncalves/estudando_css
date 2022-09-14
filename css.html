@@ -1,24 +1,42 @@
-<!--Anotações de CSS-->
-<style>
-  p {
-    color: fuchsia;
-    font-size: 21px;
-  }
-h1 {
-  color: purple;
-} 
-/* Opção para comentário no CSS dentro de alguma tag/recurso/funcionalidade */
-</style>
 <h1>CSS</h1>
-<h2>Aula 2</h2>
-<p>
-  <strong>
-    O CSS é responsável pela estilização
-  </strong>
+<h3>O CSS é responsável pela estilização</h3>
+<p>  Onde tudo começa a ganhar cores e formas.</p>
+  <p>
+  Através de um <strong>Link</strong> no arquivo do <strong>HTML</strong>, 
+  todo o projeto é estilizado pelo <strong>CSS</strong>.
+  <br>
+  Na mesma pasta, abre-se um arquivo com o nome 
+  <strong>style.css</strong>, é nele que se aplica a linguagem de estilo.
+  <br>
+  De volta ao <strong>HTML</strong>, inserir o seguinte <strong>Link</strong>:
+  <br>
+  <strong> < link rel= "stylesheet" href= "style.css" > </strong> (Link:CSS)
   </p>
-
-  <!--
-    O "id" tem mais peso na estilização em relação as demais tags, como "p", "h1", etc. 
-    Com exceção da estilização direta na tag.
-  -->
-  
+  <h4>Algumas funcionalidades:
+  <br>
+  < style > (inicio da configuração)</h4>
+  <p>p { (inicio da configuração em tag P)
+  <br>
+  <strong>(em todas as "tags P" aplica-se a seguinte configuração)</strong>
+  <br>
+  color(cor): grey (nome da cor);
+  <br>
+  font-size (tamanho da fonte): 21px(quantidade em pixels);
+  <br>
+  } <strong>(término dessa configuração)</strong>
+  </p>
+  <p>
+  h1 { (Inicio de configuração em tag h1)
+  <br>
+  color: blue;
+  <br>
+  } (término dessa configuração)
+  </p>
+  <h4> < / style > (término da configuração)</h4>
+  <h3>Comentário no CSS</h3>
+  <p> <strong> /* </strong>
+  Opção para comentário no CSS dentro de tag/recurso/funcionalidade 
+ <strong> */ </strong> </p>
+ <h3>id</h3>
+ <p>O <strong>id</strong> se sobrepõe as demais tags (p, h1, h2, h3...).
+ Sempre que aplicado, as demais tags na mesma configuração, são inutilizadas.</p>  
