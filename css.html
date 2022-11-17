@@ -13,24 +13,26 @@
   <strong> < link rel= "stylesheet" href= "style.css" > </strong> (Link:CSS)
   </p>
   <h4>Algumas funcionalidades:
-  <br>
-  < style > (inicio da configuração)</h4>
-  <p>p { (inicio da configuração em tag P)
+    <br>
+  < style > (inicio da configuração)
+  </h4>
+  <p>
+    <strong>P {</strong>(inicio da configuração em tag P)
   <br>
   <strong>(em todas as "tags P" aplica-se a seguinte configuração)</strong>
   <br>
-  color(cor): grey (nome da cor);
+  <strong>color(cor):</strong> grey (nome da cor);
   <br>
-  font-size (tamanho da fonte): 21px(quantidade em pixels);
+  <strong>font-size (tamanho da fonte):</strong> 21px(quantidade em pixels);
   <br>
   } <strong>(término dessa configuração)</strong>
   </p>
   <p>
-  h1 { (Inicio de configuração em tag h1)
+  <strong>h1 {</strong> (Inicio de configuração em tag h1)
   <br>
-  color: blue;
+  <strong>color:</strong> blue;
   <br>
-  } (término dessa configuração)
+  <strong>} (término dessa configuração)</strong>
   </p>
   <h4> < / style > (término da configuração)</h4>
   <h3>Comentário no CSS</h3>
@@ -54,24 +56,24 @@
   <br>
   <strong>margin-right:</strong> direita.
  </p>
- <p>Os valores também são em pixels (px).
+ <p>Os valores também são em <strong>pixels (px)</strong>. 
   <br>
   Exemplo:
  </p>
  <p>
-  h1 {
+  <strong>h1 {</strong>
   <br>
-  margin-top: 70px;
+  <strong>margin-top:</strong> 70px;
   <br>
-  margin-right: 90px;
+  <strong>margin-right:</strong> 90px;
   <br>
-  margin-bottom: 70px;
+  <strong>margin-bottom:</strong> 70px;
   <br>
-  margin-left: 90px;
+  <strong>margin-left:</strong> 90px;
   </p>
   <p>Ou em <strong>Shorthand</strong>, que é uma forma mais curta:</p>
   <p>
-  margin: 70px 90px 70px 90px;
+  <strong>margin:</strong> 70px 90px 70px 90px;
   <br>
   Refere-se a valores na seguinte sequência:
   <br>
@@ -81,17 +83,40 @@
   <p>
   Ou
  <br>
- margin: 70px 90px;
+ <strong>margin:</strong> 70px 90px;
  <br>
  O primeiro valor refere-se a <strong>top e bottom</strong>,
  enquanto que no segundo valor refere-se a <strong>left e right.</strong>
 </p>
 <p>Ou
 <br>
-margin: 70px 90px 70px;
+<strong>margin:</strong> 70px 90px 70px;
 <br>
 O primeiro valor é o <strong>top</strong>, 
 o segundo valor são as <strong>laterais</strong>,
 e o terceiro valor é o <strong>bottom.</strong>
 </p>
-<p>E fecha-se a tag com <strong>}</strong> (colchete).</p>
+<p>
+<strong>margin: auto</strong>
+<br>
+O <strong>auto</strong> se aplica apenas as laterais da página.
+<br>
+Ex.: margin: 65px <strong>auto</strong> 0;
+</p>
+<p>
+Para configurar as demais orientações, 
+inicia-se com a configuração <strong>para cima</strong>, 
+depois <strong>laterais</strong>, 
+e encerra-se com a configuração <strong>para baixo</strong>.
+</p>
+<p>Encerra-se a tag com <strong> } (colchete)</strong>.</p>
+<p>
+  <Strong>padding: preenchimento. </Strong>
+  <br>
+  Distância interna entre um elemento e sua borda.
+  <br>
+  Os valores são em <strong>pixels</strong>.
+</p>
+<p>
+  <strong>width: altura</strong>
+</p>
